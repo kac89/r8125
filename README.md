@@ -5,6 +5,7 @@ I made the necessary changes base on https://aur.archlinux.org/packages/r8125/
 # Installation
 
 ```
+$ sudo pacman -Sy base-devel
 $ git clone https://github.com/kac89/r8125.git
 $ cd r8125
 $ makepkg
