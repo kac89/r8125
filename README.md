@@ -1,4 +1,4 @@
-# Archlinux Ethernet Driver for Odroid H2 Plus RTL8125B chipset
+# Archlinux/Manjaro Ethernet Driver for Odroid H2 Plus RTL8125B chipset
 
 I made the necessary changes base on https://aur.archlinux.org/packages/r8125/
 
