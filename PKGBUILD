@@ -18,7 +18,7 @@ sha256sums=('75196ec98afcefbb6706307104d32131a27abba24ac333633790264968d548d6'
 build() {
   tar -xf "${pkgver}.tar.gz"
   cd "${_pkgbase}-${pkgver}"/src
-  make -C "/lib/modules/$(</usr/src/linux/version)/build" M="$(pwd)" modules
+  make -C "/lib/modules/$(uname -r)/build" M="$(pwd)" modules
 }
 
 package_r8125() {
