@@ -2,10 +2,11 @@
 
 I made the necessary changes base on https://aur.archlinux.org/packages/r8125/
 
-# Manjaro Minimal
+# Manjaro Minimal (preparation)
 ```
 $ sudo pacman -Sy base-devel
-$ sudo pacman -S $(pacman -Qsq "^linux" | grep "^linux[0-9]*[-rt]*$" | awk '{print $1"-headers"}' ORS=' ') 
+$ sudo pacman -S $(pacman -Qsq "^linux" | grep "^linux[0-9]*[-rt]*$" | awk '{print $1"-headers"}' ORS=' ')
+$ reboot
 ```
 
 # Installation
